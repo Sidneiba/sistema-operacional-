@@ -16,3 +16,4 @@ Cargo.lock
 # Editor files
 .vscode/
 .idea/
+qemu.log
