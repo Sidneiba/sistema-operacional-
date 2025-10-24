@@ -1,0 +1,15 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "kernel"
+path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
+lto = true
+opt-level = "s"
+
+[profile.dev]

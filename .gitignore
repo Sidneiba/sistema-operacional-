@@ -1,0 +1,18 @@
+# Arquivos compilados
+boot/boot.bin
+kernel/kernel.bin
+kernel/kernel.elf
+kernel/kernel.o
+dist/trios.img
+
+# Rust
+target/
+Cargo.lock
+
+# Backup files
+*.bak
+*.tmp
+
+# Editor files
+.vscode/
+.idea/
